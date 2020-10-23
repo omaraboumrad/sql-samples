@@ -1,4 +1,6 @@
--- === employees ===
+-- Sample Input 
+--
+-- Employees
 --
 -- name
 -- ----
@@ -6,7 +8,7 @@
 -- dany
 -- jake
 --
--- === schedules ===
+-- Schedules
 --
 -- name    start      end
 -- ------- ---------- ----------
@@ -14,7 +16,7 @@
 -- s2      01/02/2001 29/02/2001
 -- s3      01/03/2001 31/12/2001
 --
--- === assignments ===
+-- Assignments
 --
 -- emp    schedule
 -- ------ --------
@@ -24,6 +26,13 @@
 -- dany   s1
 -- dany   s3
 -- jake   s3
+--
+-- Expected Output
+--
+-- name
+-- ----
+-- dany
+-- jake
 
 -- Schema --
 
